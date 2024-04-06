@@ -8,7 +8,7 @@ class BankAccount{
     }
 
     deposit(amount){
-        this.balance+= amount;
+        this.balance += amount;
         console.log(`Deposited ${amount} to ${this.accountNumber}`);
     }
 
