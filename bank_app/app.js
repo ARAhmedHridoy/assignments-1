@@ -54,5 +54,5 @@ account1.displayAccountInfo();
 console.log("\n");
 
 //withdraw more from balance
-//account1.withdraw(1000); // display "Insufficient amount"
-//account1.displayAccountInfo();
+account1.withdraw(1000); // display "Insufficient amount"
+account1.displayAccountInfo();
